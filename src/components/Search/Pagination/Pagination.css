@@ -1,0 +1,53 @@
+.Pagination__container {
+    width: 25px;
+    height: 25px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    -webkit-transition: background-color 500ms;
+    -o-transition: background-color 500ms;
+    transition: background-color 500ms;
+  }
+  
+  .Pagination__container_current {
+    width: 75px;
+    height: 25px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
+    background-color: black !important;
+    -webkit-transition: background-color 500ms;
+    -o-transition: background-color 500ms;
+    transition: background-color 500ms;
+  }
+  
+  .Pagination__link_current {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .Pagination__link {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+  }
+  
+  .Pagination__link:hover {
+    color: #FFF;
+  }
+  
+  .Pagination__container:hover {
+    background-color: black;
+  }
+  
+  

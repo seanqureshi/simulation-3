@@ -1,0 +1,67 @@
+.login {
+    background-image: linear-gradient(99deg,#ff70a6,#ff9770 40%,#ffd670 73%,#e9ff70);
+    width: 100%;
+    min-width: 600px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-container {
+    background-image: linear-gradient(128deg,rgba(64,61,57,.1),hsla(0,0%,100%,.2));
+    box-shadow: 0 14px 28px 0 rgba(0,0,0,.25), 0 10px 10px 0 rgba(0,0,0,.26);
+    flex: display;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    border-radius: 8px;
+    align-items: center;
+  }
+  
+  .logo-container {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img-container {
+    padding-top: 40px;
+    height: 120px;
+    margin-top: 65px;
+  }
+  
+  .logo-text{
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-size: 100px;
+    color: white;
+    font-weight: 700px;
+    display: block;
+  }
+  
+  
+  .link-container {
+    width: 100%;
+    height: 25%;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 15px;
+  }
+  
+  .btn-login {
+    background-color: #403d39;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    width: 70%;
+    height: 45px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    cursor: auto;
+    border: none;
+  }
